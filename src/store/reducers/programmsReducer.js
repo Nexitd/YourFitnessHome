@@ -13,7 +13,7 @@ export const getShortProgramms = createAsyncThunk(
 export const getFullProgramms = createAsyncThunk(
   "programms/getFullProgramms",
   async () => {
-    const response = await axiosInstance.get();
+    const response = await axiosInstance.get("get_price.php");
 
     return response.data;
   }

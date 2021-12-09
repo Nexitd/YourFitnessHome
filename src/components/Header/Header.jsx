@@ -35,7 +35,7 @@ const Header = () => {
             </li>
             <li className={styles.listItem}>
               <Link className={styles.listLink} to='/price'>
-                Цены
+                Курсы
               </Link>
             </li>
             <li className={styles.listItem}>

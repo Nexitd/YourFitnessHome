@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/Header/Header";
 import { Button } from "antd";
 import styles from "./Main.module.css";
+import axiosInstance from "../../api/api";
 
 const Main = () => {
+  useEffect(() => {
+    axiosInstance.get("get_price.php")
+  })
   return (
     <div className={styles.container}>
       <Header />
