@@ -5,6 +5,7 @@ import { Select } from "antd";
 import { getAllArticles } from "../../store/reducers/articlesReducer";
 import ArticleCard from "../../components/ArticleCard/ArticleCard";
 import Loader from "../../components/Loader/Loader";
+import Header from "../../components/Header/Header";
 import styles from "./Articles.module.css";
 
 const Articles = () => {
@@ -21,6 +22,7 @@ const Articles = () => {
 
   return (
     <div>
+      <Header/>
       <Loader initialLoading={initialLoading}>
         <div>
           <Select

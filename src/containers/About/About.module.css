@@ -1,0 +1,23 @@
+/* about */
+
+.about {
+    margin-top: 50px;
+    padding: 20px;   
+}
+
+.aboutItem:last-of-type {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutText {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2e2e2e;
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+.text {
+    margin-left: 30px;
+}

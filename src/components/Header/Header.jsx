@@ -29,17 +29,17 @@ const Header = () => {
               </Link>
             </li>
             <li className={styles.listItem}>
-              <Link className={styles.listLink} to='/anket'>
+              <Link className={styles.listLink} to='/programms'>
                 Подбор программы
               </Link>
             </li>
             <li className={styles.listItem}>
-              <Link className={styles.listLink} to='/price'>
+              <Link className={styles.listLink} to='/courses'>
                 Курсы
               </Link>
             </li>
             <li className={styles.listItem}>
-              <Link className={styles.listLink} to='/sertifites'>
+              <Link className={styles.listLink} to='/sertificate'>
                 Сертификаты
               </Link>
             </li>
