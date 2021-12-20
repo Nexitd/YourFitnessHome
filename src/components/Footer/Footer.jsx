@@ -29,7 +29,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p className={styles.footerText}>Все права защищены 2021</p>
+        <p className={styles.footerText}>© 2021 Your Home Fitness. Все права защищены.</p>
       </div>
     </div>
   );

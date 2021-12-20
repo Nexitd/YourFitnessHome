@@ -1,0 +1,37 @@
+.card {
+    height: auto;
+    width: 100%;
+    padding: 10px 13px 50px;
+    border: 1px solid #181818;
+    border-radius: 10px;
+    position: relative;
+}
+
+.body {
+    word-break: break-all;
+    color: #2e2e2e;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid #181818;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,50 @@
+.card {
+    width: 100%;
+    position: relative;
+    background-color: #4fc4cf;
+    border-radius: 10px;
+    padding: 30px;
+    height: auto;
+}
+
+.cardHeader {
+    margin-bottom: 30px;
+}
+
+.cardTitle {
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.cardList {
+    margin-bottom: 0;
+    padding-bottom: 35px;
+}
+
+.listItem {
+    color: #fff;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cardFooter {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    border-top: 1px solid #f2eef5;
+    padding: 15px;
+}
+
+.footerText {
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+}

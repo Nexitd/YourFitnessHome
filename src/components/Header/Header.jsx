@@ -28,16 +28,17 @@ const Header = () => {
                 Наши Статьи
               </Link>
             </li>
+
             <li className={styles.listItem}>
               <Link className={styles.listLink} to='/programms'>
                 Подбор программы
               </Link>
             </li>
-            <li className={styles.listItem}>
+            {/* <li className={styles.listItem}>
               <Link className={styles.listLink} to='/courses'>
                 Курсы
               </Link>
-            </li>
+            </li> */}
             <li className={styles.listItem}>
               <Link className={styles.listLink} to='/sertificate'>
                 Сертификаты
@@ -45,9 +46,9 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className={styles.login}>
+        {/* <div className={styles.login}>
           <Button>Войти</Button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,0 +1,23 @@
+.programms {
+    max-width: 1440px;
+    margin: 20px auto;
+    padding: 0 30px;
+}
+
+.programmsText {
+    font-size: 16px;
+    width: 650px;
+    line-height: 24px;
+    color: #2e2e2e;
+    margin-bottom: 50px;
+}
+
+.form {
+    width: 500px;
+    margin: 50px auto !important;
+    text-align: center;
+    padding: 20px !important;
+    background-color: #f2eef5;
+    border: 1px solid #2e2e2e;
+    border-radius: 10px;
+}
