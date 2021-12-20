@@ -71,7 +71,7 @@ const About = () => {
 
           <div className={styles.programmCards}>
             <Row gutter={[15, 16]}>
-              <Col span={8} style={{ display: "flex", alignItems: "stretch" }}>
+              <Col xl={8} xs={24} style={{ display: "flex", alignItems: "stretch" }}>
                 <Card cover={<img alt="" src={img2} />}>
                   <Meta
                     title="Кто хочет привести себя в форму"
@@ -79,7 +79,7 @@ const About = () => {
                   />
                 </Card>
               </Col>
-              <Col span={8} style={{ display: "flex", alignItems: "stretch" }}>
+              <Col xl={8} xs={24} style={{ display: "flex", alignItems: "stretch" }}>
                 <Card cover={<img alt="" src={img3} />}>
                   <Meta
                     title="Кто имеет опыт в фитнесе"
@@ -87,7 +87,7 @@ const About = () => {
                   />
                 </Card>
               </Col>
-              <Col span={8} style={{ display: "flex", alignItems: "stretch" }}>
+              <Col xl={8} xs={24} style={{ display: "flex", alignItems: "stretch" }}>
                 <Card cover={<img alt="" src={img4} />}>
                   <Meta
                     title="Кто только начинает свой путь в фитнесе"

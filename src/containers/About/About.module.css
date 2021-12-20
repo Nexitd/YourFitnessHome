@@ -1,9 +1,9 @@
 /* about */
 
 .content {
-    max-width: 1440px;
-    margin: 20px auto;
-    padding: 0 30px;
+  max-width: 1440px;
+  margin: 20px auto;
+  padding: 0 30px;
 }
 
 .about {
@@ -93,4 +93,127 @@
   font-weight: 600;
   width: 550px;
   margin-bottom: 0;
+}
+
+/* media */
+
+@media (max-width: 576px) {
+  .about {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .aboutText {
+    max-width: 100%;
+  }
+
+  .aboutItem:last-of-type {
+    flex-direction: column;
+  }
+
+  .aboutItem img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    margin-left: 0;
+  }
+
+  .programm {
+    padding: 0;
+  }
+
+  .programmCards .ant-col {
+    display: block !important;
+  }
+
+  .programmText {
+    width: 100%;
+  }
+
+  .lessons {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .lessonsCont img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .lessonsCont {
+    flex-direction: column;
+  }
+
+  .lessonsItem:first-of-type {
+    margin-right: 0;
+  }
+
+  .itemSection span {
+    font-size: 18px !important;
+  }
+
+  .lessonsItem {
+    width: 100%;
+  }
+
+  .lessonsSubtitle {
+    font-size: 18px;
+    margin-top: -10px;
+  }
+
+  .lessonsText {
+    width: 100%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1200px) {
+  .about {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .aboutText {
+    max-width: 100%;
+  }
+
+  .aboutItem:last-of-type {
+    flex-direction: column;
+  }
+
+  .aboutItem img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    margin-left: 0;
+  }
+
+  .programm {
+    padding: 0;
+  }
+
+  .lessons {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .lessonsCont img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .lessonsCont {
+    flex-direction: column;
+  }
+
+  .lessonsItem {
+    width: 100%;
+  }
 }

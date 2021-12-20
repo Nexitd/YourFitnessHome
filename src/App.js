@@ -7,9 +7,9 @@ import Programms from "./containers/Programms"
 // import Courses from "./containers/Courses"
 import Sertificate from "./containers/Sertificate"
 import NotFound from "./components/NotFound"
+import 'antd/dist/antd.css'; 
 import './App.css';
 import "./assets/styles/global.css"
-import 'antd/dist/antd.css'; 
 
 const App = () => {
   return (

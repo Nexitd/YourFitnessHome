@@ -21,3 +21,15 @@
     border: 1px solid #2e2e2e;
     border-radius: 10px;
 }
+
+/* media */
+
+@media (max-width: 576px) {
+    .programmsText {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+}

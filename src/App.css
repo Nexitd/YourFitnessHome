@@ -2,3 +2,8 @@
   margin: 0;
   padding: 0;
 }
+
+
+.ant-col-xs-24 {
+  display: block !important;
+}

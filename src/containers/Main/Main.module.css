@@ -1,162 +1,304 @@
 .container {
-    background-color: #fffffe;
+  background-color: #fffffe;
 }
 
 /* main */
 
 .containerMain {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .mainTextCont {
-    width: 50%;
-    padding: 30px 20px 0;
+  width: 50%;
+  padding: 30px 20px 0;
 }
 
 .mainImageCont {
-    width: 50%;
-    background-blend-mode: multiply;
-    background-image: url("../../assets/images/Main/imgonline-com-ua-Res.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #c4c4c4;
-    height: 100vh;
+  width: 50%;
+  background-blend-mode: multiply;
+  background-image: url("../../assets/images/Main/imgonline-com-ua-Res.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #c4c4c4;
+  height: 100vh;
 }
 
 .title {
-    font-size: 56px;
-    line-height: 86px;
-    font-weight: bold;
-    color: #181818;
-    margin-bottom: 10px;
+  font-size: 56px;
+  line-height: 86px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 10px;
 }
 
 .subtitle {
-    max-width: 550px;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2e2e2e;
-    font-weight: 600;
+  max-width: 550px;
+  font-size: 36px;
+  line-height: 44px;
+  color: #2e2e2e;
+  font-weight: 600;
 }
 
 .mainText {
-    margin: 20px 0;
-    font-size: 16px;
-    line-height: 24px;
-    color: #2e2e2e;
-    max-width: 400px;
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2e2e;
+  max-width: 400px;
 }
 
 /* about project */
 
 .aboutProject {
-    margin: 30px 0;
-    border-bottom: .5px solid #2e2e2e;
-    border-top: .5px solid #2e2e2e;
-    width: 100%;
-    text-align: center;
-    padding: 20px;
+  margin: 30px 0;
+  border-bottom: 0.5px solid #2e2e2e;
+  border-top: 0.5px solid #2e2e2e;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
 }
 
 .aboutTitle {
-    font-size: 36px;
-    line-height: 45px;
-    font-weight: bold;
-    color: #2e2e2e;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: bold;
+  color: #2e2e2e;
 }
 
 .aboutText {
-    max-width: 650px;
-    margin: 20px auto;
-    font-size: 16px;
-    line-height: 24px;
-    color: #2e2e2e;
-    text-align: center;
-}   
+  max-width: 650px;
+  margin: 20px auto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2e2e;
+  text-align: center;
+}
 
 .btn:hover {
-    color: #2e2e2e;
+  color: #2e2e2e;
 }
 
 /* programms */
 
 .programss {
-    padding: 20px;
+  padding: 20px;
 }
 
 .programssText {
-    font-size: 16px;
-    line-height: 24px;
-    max-width: 450px;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 450px;
 }
 
 /* reviews */
 
 .reviews {
-    padding: 20px;
+  padding: 20px;
 }
 
 .reviewsContainer {
-    width: 100%;
+  width: 100%;
 }
 
 /* certificate */
 
 .certificate {
-    padding: 20px;
+  padding: 20px;
 }
 
 .certificateText {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    max-width: 450px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 450px;
 }
 
 .certificateContainer {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .certificateContainer img {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* guarantees */
 
 .guarantees {
-    width: 100%;
-    padding: 20px;
+  width: 100%;
+  padding: 20px;
 }
 
 .guaranteesContainer {
-    margin-top: 30px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .guaranteesDescr {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .subtitle {
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
 }
 
 .guaranteesText {
-    max-width: 450px;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 20px;
+  max-width: 450px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
 }
 
+/* media */
+
+@media (max-width: 576px) {
+  .containerMain {
+    flex-direction: column;
+  }
+
+  .mainText {
+    max-width: 100%;
+    line-height: 100%;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 100%;
+  }
+
+  .mainTextCont {
+    padding-bottom: 20px;
+  }
+
+  .mainTextCont,
+  .mainImageCont {
+    width: 100%;
+  }
+
+  .aboutProject {
+    padding: 10px 20px;
+  }
+
+  .aboutText {
+    max-width: 100%;
+    line-height: 100%;
+  }
+
+  .programmsText {
+    max-width: 100%;
+    line-height: 100%;
+  }
+
+  .certificateContainer {
+    flex-direction: column;
+  }
+
+  .certificateText {
+    max-width: 100%;
+    line-height: 100%;
+  }
+
+  .certificateContainer img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .guaranteesContainer {
+    flex-direction: column;
+  }
+
+  .guaranteesText {
+    max-width: 100%;
+    line-height: 100%;
+  }
+
+  .guaranteesContainer img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .guaranteesDescr {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    line-height: 100%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1200px) {
+  .certificateText {
+    max-width: 100%;
+    line-height: 100%;
+  }
+
+  .containerMain {
+    flex-direction: column;
+  }
+
+  
+
+  .mainTextCont {
+    padding-bottom: 20px;
+  }
+
+  .mainTextCont,
+  .mainImageCont {
+    width: 100%;
+  }
+
+  .aboutText {
+    max-width: 100%;
+    line-height: 100%;
+  }
+
+  .programmsText {
+    max-width: 100%;
+    line-height: 100%;
+  }
+
+  .guaranteesDescr {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .certificateContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .certificateContainer img {
+    width: 50%;
+    max-width: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .guaranteesContainer {
+    flex-direction: column;
+  }
+
+  .guaranteesContainer img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .guaranteesDescr {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}

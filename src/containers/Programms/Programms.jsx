@@ -54,6 +54,7 @@ const Programms = () => {
                 <Col
                   key={prog.id}
                   span={8}
+                  xs={24}
                   style={{ display: "flex", alignItems: "stretch" }}
                 >
                   <ProgrammCard

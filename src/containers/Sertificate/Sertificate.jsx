@@ -10,8 +10,8 @@ import img6 from "../../assets/images/Certificate/5.jpeg";
 import img7 from "../../assets/images/Certificate/GP6IFSp_t00.webp";
 import img8 from "../../assets/images/Certificate/X3VRYJY6Q-w.webp";
 import img9 from "../../assets/images/Certificate/zTx4wqpXyPc.webp";
-import styles from "./Sertificate.module.css";
 import { Col, Row } from "antd";
+import styles from "./Sertificate.module.css";
 
 const Sertificate = () => {
   return (
@@ -27,31 +27,31 @@ const Sertificate = () => {
 
         <div className={styles.cards}>
           <Row gutter={[10, 16]}>
-            <Col span={8}>
+            <Col xl={8} lg={12} xs={24}>
               <img src={img1} alt="" />
             </Col>
-            <Col span={8}>
+            <Col xl={8} lg={12} xs={24}>
               <img src={img2} alt="" />
             </Col>
-            <Col span={8}>
+            <Col xl={8} lg={12} xs={24}>
               <img src={img3} alt="" />
             </Col>
-            <Col span={8}>
+            <Col xl={8} lg={12} xs={24}>
               <img src={img4} alt="" />
             </Col>
-            <Col span={8}>
+            <Col xl={8} lg={12} xs={24}>
               <img src={img5} alt="" />
             </Col>
-            <Col span={8}>
+            <Col xl={8} lg={12} xs={24}>
               <img src={img6} alt="" />
             </Col>
-            <Col span={8}>
+            <Col xl={8} lg={12} xs={24}>
               <img src={img7} alt="" />
             </Col>
-            <Col span={8}>
+            <Col xl={8} lg={12} xs={24}>
               <img src={img8} alt="" />
             </Col>
-            <Col span={8}>
+            <Col xl={8} lg={12} xs={24}>
               <img src={img9} alt="" />
             </Col>
           </Row>

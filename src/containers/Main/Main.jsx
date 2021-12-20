@@ -58,7 +58,7 @@ const Main = () => {
         </p>
         <div className={styles.programssCont}>
           <Row gutter={[15, 15]}>
-            <Col span={8} style={{ display: "flex", alignItems: "stretch" }}>
+            <Col xl={8} lg={12} xs={24} style={{ display: "flex", alignItems: "stretch" }}>
               <Card title='Программы питания на 21:' style={{ width: "100%" }}>
                 <ul>
                   <li className={styles.cardText}>
@@ -70,7 +70,7 @@ const Main = () => {
                 </ul>
               </Card>
             </Col>
-            <Col span={8} style={{ display: "flex", alignItems: "stretch" }}>
+            <Col xl={8} lg={12} xs={24} style={{ display: "flex", alignItems: "stretch" }}>
               <Card
                 title='Основные программы тренировок и питания:'
                 style={{ width: "100%" }}>
@@ -82,7 +82,7 @@ const Main = () => {
                 </ul>
               </Card>
             </Col>
-            <Col span={8} style={{ display: "flex", alignItems: "stretch" }}>
+            <Col xl={8} lg={12} xs={24} style={{ display: "flex", alignItems: "stretch" }}>
               <Card title='Программа «Психология похудения»' style={{ width: "100%" }}>
                 <ul>
                   <li className={styles.cardText}>
@@ -100,7 +100,7 @@ const Main = () => {
         <h2 className='title'>Отзывы наших клиентов</h2>
         <div className={styles.reviewsContainer}>
           <Row gutter={[15, 15]}>
-            <Col span={8} style={{ display: "flex", alignItems: "stretch" }}>
+            <Col xl={8} lg={12} xs={24} style={{ display: "flex", alignItems: "stretch" }}>
               <Card
                 title='Элина'
                 style={{ width: "100%" }}
@@ -114,7 +114,7 @@ const Main = () => {
                 </p>
               </Card>
             </Col>
-            <Col span={8} style={{ display: "flex", alignItems: "stretch" }}>
+            <Col xl={8} lg={12} xs={24} style={{ display: "flex", alignItems: "stretch" }}>
               <Card
                 title='Светлана'
                 style={{ width: "100%" }}
@@ -131,7 +131,7 @@ const Main = () => {
                 </p>
               </Card>
             </Col>
-            <Col span={8} style={{ display: "flex", alignItems: "stretch" }}>
+            <Col xl={8} lg={12} xs={24} style={{ display: "flex", alignItems: "stretch" }}>
               <Card
                 title='Олеся'
                 style={{ width: "100%" }}
