@@ -49,7 +49,7 @@ const Articles = () => {
             ))}
           </Select>
         </div>
-        {articleItems.length ? (
+        {articleItems.length && articleItems !== undefined ? (
           <div style={{ padding: "0 15px" }}>
             <Row gutter={[15, 15]}>
               {articleItems.map((card) => {
