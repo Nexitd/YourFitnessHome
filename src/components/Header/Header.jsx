@@ -27,32 +27,33 @@ const Header = () => {
 									О нас
 								</Link>
 							</li>
-							<li className={styles.listItem}>
+							{/* <li className={styles.listItem}>
 								<Link className={styles.listLink} to="/articles">
 									Наши Статьи
 								</Link>
-							</li>
+							</li> */}
+
 							<li className={styles.listItem}>
-								<Link className={styles.listLink} to="/anket">
+								<Link className={styles.listLink} to="/programms">
 									Подбор программы
 								</Link>
 							</li>
+							{/* <li className={styles.listItem}>
+              <Link className={styles.listLink} to='/courses'>
+              Курсы
+              </Link>
+            </li> */}
 							<li className={styles.listItem}>
-								<Link className={styles.listLink} to="/price">
-									Курсы
-								</Link>
-							</li>
-							<li className={styles.listItem}>
-								<Link className={styles.listLink} to="/sertifites">
+								<Link className={styles.listLink} to="/sertificate">
 									Сертификаты
 								</Link>
 							</li>
 						</ul>
 					</div>
-					<div className={styles.login}>
-						<Button>Войти</Button>
-					</div>
 				</div>
+				{/* <div className={styles.login}>
+          <Button>Войти</Button>
+        </div> */}
 			</div>
 		</div>
 	);

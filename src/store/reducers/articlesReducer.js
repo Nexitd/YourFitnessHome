@@ -10,6 +10,17 @@ export const getAllArticles = createAsyncThunk(
   }
 );
 
+export const filterTags = createAsyncThunk(
+  "articles/filterTags",
+  async (tagName) => {
+    const response = await axiosInstance.get(
+      `get_article.php?filter=tag&value=${tagName}`
+    );
+
+    return response.data;
+  }
+);
+
 const articlesReducer = createSlice({
   name: "articles",
   initialState: {
@@ -30,6 +41,19 @@ const articlesReducer = createSlice({
 
     [getAllArticles.rejected]: (state, action) => {
       state.articleItems = action.payload;
+      state.initialLoading = false;
+    },
+
+    [filterTags.fulfilled]: (state, action) => {
+      state.articleItems = action.payload;
+      state.initialLoading = false;
+    },
+
+    [filterTags.pending]: (state) => {
+      state.initialLoading = true;
+    },
+
+    [filterTags.rejected]: (state) => {
       state.initialLoading = false;
     },
   },

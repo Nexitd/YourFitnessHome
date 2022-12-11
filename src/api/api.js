@@ -7,21 +7,21 @@ const axiosInstance = axios.create({
   baseURL: "http://yourhomefitness.ru/api/",
 });
 
-axiosInstance.interceptors.request.use(
-  (config) => {
-    const token = localStorage.getItem(ACCESS_TOKEN);
+// axiosInstance.interceptors.request.use(
+//   (config) => {
+//     const token = localStorage.getItem(ACCESS_TOKEN);
 
-    if (token) {
-      config.headers["Authorization"] = "Bearer " + token;
-    }
+//     if (token) {
+//       config.headers["Authorization"] = "Bearer " + token;
+//     }
 
-    return config;
-  },
+//     return config;
+//   },
 
-  (error) => {
-    return Promise.reject(error);
-  }
-);
+//   (error) => {
+//     return Promise.reject(error);
+//   }
+// );
 
 axiosInstance.interceptors.response.use(
   (response) => {
